@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer type="module" src="script.js"></script>
+  <!-- <script type="module" src="script.js"></script> -->
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="c-header">
+
+
+    <div class="c-left-content__wrapper">
+
+      <div class="c-company__title" style="margin-left: 10px;">
+        <b><span>snap</span></b>
+      </div>
+
+
+
+      <nav class="c-nav-bar" style="display: flex; align-items: center;">
+        <a class="c-nav-bar__features" id="featuresTag" style="display: flex;">
+          Features
+          <svg style="transform: scale(2); margin-top: 7px; margin-left: 8px;" id="featuresArrow" width="10" height="6"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
+          </svg>
+        </a>
+
+
+        <a href="#" id="companyTag" style="display: flex;">
+          Company
+          <svg style="transform: scale(2); margin-top: 7px; margin-left: 8px;" id="companyDropdownIcon" width="10"
+            height="6" xmlns="http://www.w3.org/2000/svg">
+            <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
+          </svg>
+        </a>
+
+
+        <div>
+          <a href="#">
+            Careers
+          </a>
+        </div>
+
+        <div>
+          <a href="#">
+            About
+          </a>
+        </div>
+
+        <!-- dropdown 1 -->
+        <div class="dropdown-one-wrapper" id="dropdownOneWrapper">
+          <div class="dropdown-one">
+            <div>
+              <span>dropdown works</span>
+            </div>
+            <div>
+              <span>dropdown works</span>
+            </div>
+            <div>
+              <span>dropdown works</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- dropdown 2 -->
+        <div class="dropdown-two-wrapper" id="dropdownTwoWrapper">
+          <div style="display: flex; flex-direction: column; justify-content: space-around; align-items: center;"
+            class="dropdown-two">
+            <div style="padding-block: 10px;">
+              <span>dropdown 2</span>
+            </div>
+            <div style="padding-block: 10px;">
+              <span>dropdown 2</span>
+            </div>
+            <div style="padding-block: 10px;">
+              <span>dropdown 2</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+    <div class="headerRightContent-wrapper">
+      <span>
+        Login
+      </span>
+      <span style="margin-left: 20px;">
+        Register
+      </span>
+    </div>
+
+  </header>
+
+  <!-- main -->
+
+  <div class="main-content-wrapper">
+
+    <div class="main-content-left">
+      <div>
+        <h1>Make <br /> remote work</h1>
+      </div>
+
+      <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Magnam ea sit quam laborum magni quibusdam voluptatem ratione eius sed,
+          dolores nostrum dolore architecto suscipit quidem repellat porro illum!
+          Mollitia, perspiciatis?
+        </p>
+      </div>
+
+      <button class="learn-more-btn" href="">Learn more</button>
+
+    </div>
+
+    <div>
+      <img class="img-hero" src="images\image-hero-desktop.png">
+    </div>
+  </div>
+</body>
+
+</html>
